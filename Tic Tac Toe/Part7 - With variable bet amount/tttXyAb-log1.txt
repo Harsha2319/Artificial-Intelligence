@@ -1,0 +1,187 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-03-10 00:24:40.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"tttXyAb-log1.txt">
+Break 1 [4]> (load "tttXyAb.lisp")
+;; Loading file tttXyAb.lisp ...
+;; Loaded file tttXyAb.lisp
+T
+Break 1 [4]> (tttXyAb)
+Set initial amount for x and o : 50
+Randx :  4
+Rando :  5
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Randx :  1
+Rando :  2
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Randx :  3
+Rando :  3
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Randx :  3
+Rando :  4
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Randx :  5
+Rando :  2
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Randx :  0
+Rando :  3
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Randx :  1
+Rando :  1
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Randx :  0
+Rando :  3
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Randx :  4
+Rando :  2
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  29
+Amount left with o :  25
+Amount in the pot :  46
+Randx :  5
+Rando :  0
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Randx :  1
+Rando :  4
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Randx :  4
+Rando :  4
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Randx :  3
+Rando :  1
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Randx :  0
+Rando :  4
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Randx :  1
+Rando :  1
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Randx :  1
+Rando :  4
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Randx :  3
+Rando :  1
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Randx :  3
+Rando :  2
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  8
+Amount left with o :  4
+Amount in the pot :  88
+Randx :  1
+Rando :  3
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Randx :  5
+Rando :  3
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Randx :  0
+Rando :  1
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Randx :  0
+Rando :  0
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Randx :  5
+Rando :  1
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Randx :  3
+Rando :  3
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Randx :  4
+Rando :  1
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Randx :  4
+Rando :  1
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Randx :  1
+Rando :  1
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  -15
+Amount left with o :  -10
+Amount in the pot :  125
+Amount with x or o is less than 0. So, program terminated.
+Number of iteration before termination 3
+NIL
+Break 1 [4]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-03-10 00:25:25.

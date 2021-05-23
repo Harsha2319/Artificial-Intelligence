@@ -1,0 +1,52 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-02-10 01:04:49.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"ttt4x4-log.txt">
+Break 8 [12]> (ttt4x4)
+
+"Enter no of games" 1
+Game: 1
+|13|14|15|16|
+|9|10|11|12|
+|5|6|7|8|
+|1|2|3|4|
+
+computer X selects 3
+
+|13|14|15|16|
+|9|10|11|12|
+|5|6|7|8|
+|1|2|X|4|
+
+computer O selects 5
+
+|13|14|15|16|
+|9|10|11|12|
+|O|6|7|8|
+|1|2|X|4|
+
+computer X selects 15
+
+|13|14|X|16|
+|9|10|11|12|
+|O|6|7|8|
+|1|2|X|4|
+
+computer O selects 13
+
+|O|14|X|16|
+|9|10|11|12|
+|O|6|7|8|
+|1|2|X|4|
+
+computer X selects 2
+
+|O|14|X|16|
+|9|10|11|12|
+|O|6|7|8|
+|1|X|X|4|
+
+computer O selects 9
+
+The winner of Game 1 is O!
+NIL
+Break 8 [12]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-02-10 01:05:18.

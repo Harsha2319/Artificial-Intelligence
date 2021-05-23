@@ -1,0 +1,219 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-02-10 00:26:05.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"ttt3x3n-log.txt">
+Break 3 [7]> (ttt3x3n)
+
+"Enter no of games" 4
+Game: 1
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer X selects 5
+
+|7|8|9|
+|4|X|6|
+|1|2|3|
+
+computer O selects 8
+
+|7|O|9|
+|4|X|6|
+|1|2|3|
+
+computer X selects 9
+
+|7|O|X|
+|4|X|6|
+|1|2|3|
+
+computer O selects 3
+
+|7|O|X|
+|4|X|6|
+|1|2|O|
+
+computer X selects 2
+
+|7|O|X|
+|4|X|6|
+|1|X|O|
+
+computer O selects 1
+
+|7|O|X|
+|4|X|6|
+|O|X|O|
+
+computer X selects 7
+
+|X|O|X|
+|4|X|6|
+|O|X|O|
+
+computer O selects 6
+
+|X|O|X|
+|4|X|O|
+|O|X|O|
+
+computer X selects 4
+
+It's a tie.Game: 2
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer O selects 1
+
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+computer X selects 7
+
+|X|8|9|
+|4|5|6|
+|O|2|3|
+
+computer O selects 6
+
+|X|8|9|
+|4|5|O|
+|O|2|3|
+
+computer X selects 8
+
+|X|X|9|
+|4|5|O|
+|O|2|3|
+
+computer O selects 4
+
+|X|X|9|
+|O|5|O|
+|O|2|3|
+
+computer X selects 5
+
+|X|X|9|
+|O|X|O|
+|O|2|3|
+
+computer O selects 2
+
+|X|X|9|
+|O|X|O|
+|O|O|3|
+
+computer X selects 9
+
+The winner of Game 2 is X!
+Game: 3
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer O selects 2
+
+|7|8|9|
+|4|5|6|
+|1|O|3|
+
+computer X selects 5
+
+|7|8|9|
+|4|X|6|
+|1|O|3|
+
+computer O selects 6
+
+|7|8|9|
+|4|X|O|
+|1|O|3|
+
+computer X selects 7
+
+|X|8|9|
+|4|X|O|
+|1|O|3|
+
+computer O selects 4
+
+|X|8|9|
+|O|X|O|
+|1|O|3|
+
+computer X selects 1
+
+|X|8|9|
+|O|X|O|
+|X|O|3|
+
+computer O selects 9
+
+|X|8|O|
+|O|X|O|
+|X|O|3|
+
+computer X selects 3
+
+The winner of Game 3 is X!
+Game: 4
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer O selects 2
+
+|7|8|9|
+|4|5|6|
+|1|O|3|
+
+computer X selects 4
+
+|7|8|9|
+|X|5|6|
+|1|O|3|
+
+computer O selects 5
+
+|7|8|9|
+|X|O|6|
+|1|O|3|
+
+computer X selects 8
+
+|7|X|9|
+|X|O|6|
+|1|O|3|
+
+computer O selects 6
+
+|7|X|9|
+|X|O|O|
+|1|O|3|
+
+computer X selects 3
+
+|7|X|9|
+|X|O|O|
+|1|O|X|
+
+computer O selects 1
+
+|7|X|9|
+|X|O|O|
+|O|O|X|
+
+computer X selects 7
+
+|X|X|9|
+|X|O|O|
+|O|O|X|
+
+computer O selects 9
+
+The winner of Game 4 is O!
+NIL
+Break 3 [7]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-02-10 00:26:27.

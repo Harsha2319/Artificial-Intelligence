@@ -1,0 +1,13640 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-03-10 10:16:27.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"ttt3x3nAb-log.txt">
+[11]> (load "ttt3x3nAb.lisp")
+;; Loading file ttt3x3nAb.lisp ...
+;; Loaded file ttt3x3nAb.lisp
+T
+[12]> (ttt3x3nAb)
+
+Enter no of games : 1
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 1
+NIL
+[13]> (ttt3x3nAb)
+
+Enter no of games : 2
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 2
+NIL
+[14]> (ttt3x3nAb)
+
+Enter no of games : 10
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 3
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 4
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 5
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 6
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 7
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 8
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 9
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 10
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 10
+NIL
+[15]> (ttt3x3nAb)
+
+Enter no of games : 100
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 3
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 4
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 5
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 6
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 7
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 8
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 9
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 10
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 11
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 12
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 13
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 14
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 15
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 16
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 17
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 18
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 19
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 20
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 21
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 22
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 23
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 24
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 25
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 26
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 27
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 28
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 29
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 30
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 31
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 32
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 33
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 34
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 35
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 36
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 37
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 38
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 39
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 40
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 41
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 42
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 43
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 44
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 45
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 46
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 47
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 48
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 49
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 50
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 51
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 52
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 53
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 54
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 55
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 56
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 57
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 58
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 59
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 60
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 61
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 62
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 63
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 64
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 65
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 66
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 67
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 68
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 69
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 70
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 71
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 72
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 73
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 74
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 75
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 76
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 77
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 78
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 79
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 80
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 81
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 82
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 83
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 84
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 85
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 86
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 87
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 88
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 89
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 90
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 91
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 92
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 93
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 94
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 95
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 96
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 97
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 98
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 99
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 100
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 100
+NIL
+[16]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-03-10 10:18:25.
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-03-10 11:53:47.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"ttt3x3nAb-log.txt">
+Break 3 [14]> (load "ttt3x3nAb.lisp")
+;; Loading file ttt3x3nAb.lisp ...
+WARNING: DEFUN/DEFMACRO: redefining function GENERATE-BOARD in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function DISPLAY-BOARD in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function GET-BOARD-ELT in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-DRAW in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-WIN in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function GAME-OVER in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function CHECK-FOR-WINS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-A-WIN in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function OTHER-PLAYER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function NEXT-MOVES in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function NEXT-MOVES-AUX in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function GET-MACHINE-MOVE in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function MINIMAX-ALPHA-BETA in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function HEURISTIC in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function COUNT-PAIRS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function ADD-PAIRS in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-A-PAIR in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function COUNT-CORNERS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function ADD-CORNERS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-A-CORNER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function CHECK-CENTER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function PERFORM-TURN in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function SWITCH-PLAYER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function SET-PLAYER in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+;; Loaded file ttt3x3nAb.lisp
+T
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 1
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 1
+NIL
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 2
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 2
+NIL
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 10
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 3
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 4
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 5
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 6
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 7
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 8
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 9
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 10
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 10
+NIL
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 100
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 3
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 4
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 5
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 6
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 7
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 8
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 9
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 10
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 11
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 12
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 13
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 14
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 15
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 16
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 17
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 18
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 19
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 20
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 21
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 22
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 23
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 24
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 25
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 26
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 27
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 28
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 29
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 30
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 31
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 32
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 33
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 34
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 35
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 36
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 37
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 38
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 39
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 40
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 41
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 42
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 43
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 44
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 45
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 46
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 47
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 48
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 49
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 50
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 51
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 52
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 53
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 54
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 55
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 56
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 57
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 58
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 59
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 60
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 61
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 62
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 63
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 64
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 65
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 66
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 67
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 68
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 69
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 70
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 71
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 72
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 73
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 74
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 75
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 76
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 77
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 78
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 79
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 80
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 81
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 82
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 83
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 84
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 85
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 86
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 87
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 88
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 89
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 90
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 91
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 92
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 93
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 94
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 95
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 96
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 97
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 98
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 99
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 100
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 100
+NIL
+Break 3 [14]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-03-10 11:56:31.
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-03-10 11:57:23.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"ttt3x3nAb-log.txt">
+Break 3 [14]> (load "ttt3x3nAb.lisp")
+;; Loading file ttt3x3nAb.lisp ...
+WARNING: DEFUN/DEFMACRO: redefining function GENERATE-BOARD in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function DISPLAY-BOARD in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function GET-BOARD-ELT in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-DRAW in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-WIN in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function GAME-OVER in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function CHECK-FOR-WINS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-A-WIN in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function OTHER-PLAYER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function NEXT-MOVES in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function NEXT-MOVES-AUX in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function GET-MACHINE-MOVE in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function MINIMAX-ALPHA-BETA in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function HEURISTIC in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function COUNT-PAIRS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function ADD-PAIRS in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-A-PAIR in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function COUNT-CORNERS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function ADD-CORNERS in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function IS-A-CORNER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function CHECK-CENTER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function PERFORM-TURN in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function SWITCH-PLAYER in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem
+         2\AI\Assignment\Assignment 2\ttt3x3nAbH.lisp
+WARNING: DEFUN/DEFMACRO: redefining function SET-PLAYER in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAb.lisp, was defined in C:\Users\harsh\Documents\UTD\Sem 2\AI\Assignment\Assignment
+         2\ttt3x3nAbH.lisp
+;; Loaded file ttt3x3nAb.lisp
+T
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 1
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 1
+NIL
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 2
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 2
+NIL
+Break 3 [14]> (ttt3x3nAb)
+
+Enter no of games : 10
+
+Game: 1
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 2
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 3
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 4
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 5
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 6
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 7
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 8
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+Game: 9
+Current player : X
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+
+Current player : O
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+
+Current player : X
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+
+Current player : O
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+
+Current player : O
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+
+Current player : X
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+
+It's a tie
+Game: 10
+Current player : O
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|O|2|3|
+
+Current player : X
+Number of nodes generated: 2802
+|7|8|9|
+|4|X|6|
+|O|2|3|
+
+Current player : O
+Number of nodes generated: 1055
+|7|8|9|
+|4|X|6|
+|O|O|3|
+
+Current player : X
+Number of nodes generated: 108
+|7|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 77
+|O|8|9|
+|4|X|6|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 24
+|O|8|9|
+|X|X|6|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 11
+|O|8|9|
+|X|X|O|
+|O|O|X|
+
+Current player : X
+Number of nodes generated: 4
+|O|X|9|
+|X|X|O|
+|O|O|X|
+
+Current player : O
+Number of nodes generated: 1
+|O|X|O|
+|X|X|O|
+|O|O|X|
+
+It's a tie
+No of wins by x : 0
+No of wins by o : 0
+No of tie : 10
+NIL
+Break 3 [14]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-03-10 11:57:58.

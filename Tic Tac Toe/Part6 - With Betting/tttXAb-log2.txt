@@ -1,0 +1,489 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-03-10 00:22:55.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"tttXAb-log2.txt">
+Break 1 [4]> (tttXAb)
+Set initial amount for x and o : 100
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  91
+Amount left with o :  91
+Amount in the pot :  126
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  82
+Amount left with o :  82
+Amount in the pot :  144
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  73
+Amount left with o :  73
+Amount in the pot :  162
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  64
+Amount left with o :  64
+Amount in the pot :  180
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  55
+Amount left with o :  55
+Amount in the pot :  198
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  46
+Amount left with o :  46
+Amount in the pot :  216
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  37
+Amount left with o :  37
+Amount in the pot :  234
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  28
+Amount left with o :  28
+Amount in the pot :  252
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  19
+Amount left with o :  19
+Amount in the pot :  270
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  10
+Amount left with o :  10
+Amount in the pot :  288
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  1
+Amount left with o :  1
+Amount in the pot :  306
+Number of nodes generated: 22873
+|7|8|9|
+|4|5|6|
+|X|2|3|
+Number of nodes generated: 2802
+|7|8|9|
+|4|O|6|
+|X|2|3|
+Number of nodes generated: 1055
+|7|8|9|
+|4|O|6|
+|X|X|3|
+Number of nodes generated: 108
+|7|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 77
+|X|8|9|
+|4|O|6|
+|X|X|O|
+Number of nodes generated: 24
+|X|8|9|
+|O|O|6|
+|X|X|O|
+Number of nodes generated: 11
+|X|8|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 4
+|X|O|9|
+|O|O|X|
+|X|X|O|
+Number of nodes generated: 1
+|X|O|X|
+|O|O|X|
+|X|X|O|
+drawoutput after each gameoutput after each game
+Amount left with X :  -8
+Amount left with o :  -8
+Amount in the pot :  324
+Amount with x or o is less than 0. So, program terminated.
+Number of iteration before termination 12
+NIL
+Break 1 [4]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-03-10 00:24:01.

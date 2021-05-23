@@ -1,0 +1,208 @@
+;; Dribble of #<IO TERMINAL-STREAM> started on 2020-02-10 11:06:26.
+#<OUTPUT BUFFERED FILE-STREAM CHARACTER #P"ttt3x3nh-log.txt">
+Break 10 [12]> (ttt3x3nh)
+
+"Enter no of games" 4
+Game: 1
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer selects 5
+
+|7|8|9|
+|4|X|6|
+|1|2|3|
+
+computer O selects 4
+
+|7|8|9|
+|O|X|6|
+|1|2|3|
+
+computer selects 1
+
+|7|8|9|
+|O|X|6|
+|X|2|3|
+
+computer O selects 3
+
+|7|8|9|
+|O|X|6|
+|X|2|O|
+
+computer selects 7
+
+|X|8|9|
+|O|X|6|
+|X|2|O|
+
+computer O selects 2
+
+|X|8|9|
+|O|X|6|
+|X|O|O|
+
+computer selects 9
+
+The winner of Game 1 is X!
+Game: 2
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer O selects 2
+
+|7|8|9|
+|4|5|6|
+|1|O|3|
+
+computer selects 5
+
+|7|8|9|
+|4|X|6|
+|1|O|3|
+
+computer O selects 8
+
+|7|O|9|
+|4|X|6|
+|1|O|3|
+
+computer selects 1
+
+|7|O|9|
+|4|X|6|
+|X|O|3|
+
+computer O selects 4
+
+|7|O|9|
+|O|X|6|
+|X|O|3|
+
+computer selects 3
+
+|7|O|9|
+|O|X|6|
+|X|O|X|
+
+computer O selects 7
+
+|O|O|9|
+|O|X|6|
+|X|O|X|
+
+computer selects 9
+
+The winner of Game 2 is X!
+Game: 3
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer O selects 2
+
+|7|8|9|
+|4|5|6|
+|1|O|3|
+
+computer selects 5
+
+|7|8|9|
+|4|X|6|
+|1|O|3|
+
+computer O selects 8
+
+|7|O|9|
+|4|X|6|
+|1|O|3|
+
+computer selects 1
+
+|7|O|9|
+|4|X|6|
+|X|O|3|
+
+computer O selects 6
+
+|7|O|9|
+|4|X|O|
+|X|O|3|
+
+computer selects 3
+
+|7|O|9|
+|4|X|O|
+|X|O|X|
+
+computer O selects 4
+
+|7|O|9|
+|O|X|O|
+|X|O|X|
+
+computer selects 7
+
+The winner of Game 3 is X!
+Game: 4
+|7|8|9|
+|4|5|6|
+|1|2|3|
+
+computer O selects 3
+
+|7|8|9|
+|4|5|6|
+|1|2|O|
+
+computer selects 5
+
+|7|8|9|
+|4|X|6|
+|1|2|O|
+
+computer O selects 2
+
+|7|8|9|
+|4|X|6|
+|1|O|O|
+
+computer selects 1
+
+|7|8|9|
+|4|X|6|
+|X|O|O|
+
+computer O selects 8
+
+|7|O|9|
+|4|X|6|
+|X|O|O|
+
+computer selects 7
+
+|X|O|9|
+|4|X|6|
+|X|O|O|
+
+computer O selects 9
+
+|X|O|O|
+|4|X|6|
+|X|O|O|
+
+computer selects 7
+
+|X|O|O|
+|4|X|X|
+|X|O|O|
+
+computer O selects 4
+
+It's a tie.
+NIL
+Break 10 [12]> (dribble)
+;; Dribble of #<IO TERMINAL-STREAM> finished on 2020-02-10 11:06:44.
