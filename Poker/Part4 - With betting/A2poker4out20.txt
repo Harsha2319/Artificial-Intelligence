@@ -1,0 +1,190 @@
+'In Play'
+[[7,spade],[7,club],[8,spade],[9,heart],[queen,heart]]
+[[4,heart],[4,club],[8,club],[jack,club],[queen,diamond]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'pair
+
+'win='[[7,club],[queen,heart],[9,heart],[8,spade],[7,spade]]
+
+[[3,spade],[3,club],[7,diamond],[king,spade],[ace,club]]
+[[4,club],[4,spade],[5,club],[jack,diamond],[queen,diamond]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'pair
+
+'win='[[jack,diamond],[5,club],[queen,diamond],[4,spade],[4,club]]
+
+'Amount Player1 : '100'Amount Player2 : '100
+
+[[2,spade],[4,spade],[4,club],[jack,spade],[king,club]]
+[[2,heart],[3,club],[3,spade],[7,heart],[9,diamond]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'pair
+
+'win='[[4,club],[jack,spade],[king,club],[2,spade],[4,spade]]
+
+[[6,diamond],[7,spade],[10,club],[jack,heart],[ace,heart]]
+[[2,club],[7,diamond],[8,spade],[8,club],[8,diamond]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'three_of_a_kind
+
+'win='[[8,diamond],[7,diamond],[2,club],[8,club],[8,spade]]
+
+'Amount Player1 : '100'Amount Player2 : '100
+
+[[5,heart],[7,club],[10,diamond],[jack,club],[queen,diamond]]
+[[4,spade],[5,diamond],[6,club],[7,spade],[king,diamond]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'high_card
+
+'win='[[6,club],[7,spade],[king,diamond],[4,spade],[5,diamond]]
+
+'Amount Player1 : '95'Amount Player2 : '105
+
+[[2,diamond],[2,club],[5,spade],[6,spade],[king,heart]]
+[[5,club],[5,heart],[9,club],[jack,diamond],[queen,club]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'pair
+
+'win='[[5,heart],[jack,diamond],[9,club],[5,club],[queen,club]]
+
+'Amount Player1 : '90'Amount Player2 : '110
+
+[[2,diamond],[5,diamond],[9,heart],[jack,spade],[king,spade]]
+[[6,heart],[6,spade],[7,heart],[9,diamond],[queen,club]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'pair
+
+'win='[[queen,club],[9,diamond],[7,heart],[6,spade],[6,heart]]
+
+'Amount Player1 : '85'Amount Player2 : '115
+
+[[3,heart],[5,spade],[jack,diamond],[king,spade],[ace,diamond]]
+[[4,diamond],[9,heart],[9,club],[queen,club],[king,diamond]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'pair
+
+'win='[[queen,club],[9,club],[9,heart],[4,diamond],[king,diamond]]
+
+'Amount Player1 : '80'Amount Player2 : '120
+
+[[3,spade],[4,diamond],[6,heart],[jack,club],[queen,diamond]]
+[[3,heart],[4,club],[7,heart],[queen,spade],[queen,heart]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'pair
+
+'win='[[7,heart],[queen,heart],[queen,spade],[4,club],[3,heart]]
+
+'Amount Player1 : '75'Amount Player2 : '125
+
+[[3,diamond],[4,diamond],[4,heart],[8,spade],[9,diamond]]
+[[9,club],[queen,diamond],[queen,spade],[king,spade],[ace,spade]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'pair
+
+'win='[[ace,spade],[queen,spade],[king,spade],[9,club],[queen,diamond]]
+
+'Amount Player1 : '70'Amount Player2 : '130
+
+[[5,diamond],[5,spade],[7,heart],[9,diamond],[jack,diamond]]
+[[2,spade],[3,heart],[4,heart],[10,diamond],[ace,diamond]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'high_card
+
+'win='[[7,heart],[5,spade],[jack,diamond],[9,diamond],[5,diamond]]
+
+[[2,spade],[3,heart],[5,diamond],[9,diamond],[queen,diamond]]
+[[7,heart],[7,spade],[jack,diamond],[queen,heart],[queen,club]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'two_pair
+
+'win='[[7,spade],[queen,club],[queen,heart],[jack,diamond],[7,heart]]
+
+'Amount Player1 : '70'Amount Player2 : '130
+
+[[2,heart],[7,heart],[9,club],[10,spade],[jack,spade]]
+[[3,diamond],[3,spade],[3,heart],[6,heart],[ace,diamond]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'three_of_a_kind
+
+'win='[[3,heart],[3,spade],[ace,diamond],[6,heart],[3,diamond]]
+
+'Amount Player1 : '65'Amount Player2 : '135
+
+[[2,diamond],[4,spade],[4,diamond],[6,diamond],[10,spade]]
+[[4,heart],[5,heart],[8,club],[9,heart],[jack,club]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'high_card
+
+'win='[[4,diamond],[4,spade],[10,spade],[6,diamond],[2,diamond]]
+
+[[6,club],[8,club],[8,diamond],[8,heart],[9,diamond]]
+[[3,club],[6,spade],[jack,heart],[jack,club],[king,heart]]
+
+'Determine Hand of H1 : 'three_of_a_kind
+'Determine Hand of H2 : 'pair
+
+'win='[[8,heart],[8,diamond],[9,diamond],[6,club],[8,club]]
+
+[[4,heart],[9,spade],[jack,diamond],[queen,spade],[ace,diamond]]
+[[2,heart],[3,heart],[9,club],[10,diamond],[king,heart]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'high_card
+
+'win='[[queen,spade],[9,spade],[jack,diamond],[4,heart],[ace,diamond]]
+
+[[2,heart],[3,spade],[6,heart],[ace,diamond],[ace,spade]]
+[[3,diamond],[4,club],[5,diamond],[jack,club],[ace,club]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'high_card
+
+'win='[[2,heart],[3,spade],[ace,spade],[ace,diamond],[6,heart]]
+
+[[6,club],[7,diamond],[8,spade],[10,diamond],[ace,spade]]
+[[2,spade],[3,club],[5,spade],[7,spade],[king,spade]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'high_card
+
+'win='[[10,diamond],[8,spade],[ace,spade],[7,diamond],[6,club]]
+
+
+[[5,diamond],[9,club],[10,heart],[10,diamond],[ace,spade]]
+[[2,spade],[6,spade],[queen,diamond],[king,club],[king,spade]]
+
+'Determine Hand of H1 : 'pair
+'Determine Hand of H2 : 'pair
+
+'win='[[king,spade],[queen,diamond],[6,spade],[2,spade],[king,club]]
+
+'Amount Player1 : '85'Amount Player2 : '115
+
+[[4,diamond],[5,spade],[7,heart],[9,club],[jack,spade]]
+[[2,spade],[8,spade],[10,heart],[10,spade],[jack,heart]]
+
+'Determine Hand of H1 : 'high_card
+'Determine Hand of H2 : 'pair
+
+'win='[[jack,heart],[10,spade],[10,heart],[8,spade],[2,spade]]
+
+'Amount Player1 : '80'Amount Player2 : '120
+
+[105,100,105,100,95,90,85,80,75,70,75,70,65,70,75,80,85,90,85,80]
+[95,100,95,100,105,110,115,120,125,130,125,130,135,130,125,120,115,110,115,120]
+% 23,521 inferences, 0.000 CPU in 0.573 seconds (0% CPU, Infinite Lips)
+true 
