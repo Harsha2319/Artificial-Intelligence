@@ -1,0 +1,23 @@
+A2poker1 - SUMMARY
+
+N = 100
+
+'Frequency : '[0,0,0,0,1,1,1,7,40,50]
+'Probability : '[0,0,0,0,1,1,1,7,40,50]
+% 62,145 inferences, 0.047 CPU in 1.848 seconds (3% CPU, 1325760 Lips)
+
+N = 1000
+
+'Frequency : '[0,0,0,0,0,3,16,48,415,518]
+'Probability : '[0,0,0,0,0,0.3,1.6,4.8,41.5,51.8]
+% 638,532 inferences, 0.484 CPU in 19.172 seconds (3% CPU, 1318260 Lips)
+
+N = 10000
+
+਀'Frequency : '[0,0,3,16,30,46,232,488,4223,4962]
+'Probability : '[0,0,0.03,0.16,0.3,0.46,2.32,4.88,42.23,49.62]
+% 6,364,817 inferences, 5.594 CPU in 179.680 seconds (3% CPU, 1137844 Lips)
+
+N = 100000 & N = 1000000
+
+N = 100000 (hundred thousand) and N = 1000000 (one million) took more than 3 minutes to run so I terminated the run 

@@ -1,0 +1,8 @@
+A2poker4 -SUMMARY
+
+Amount with Player1 after each game:[105,100,105,100,95,90,85,80,75,70,75,70,65,70,75,80,85,90,85,80]
+
+Amount with Player2 after each game:
+[95,100,95,100,105,110,115,120,125,130,125,130,135,130,125,120,115,110,115,120]
+
+Winner: player2.

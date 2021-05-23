@@ -1,0 +1,1505 @@
+Loop : 100
+
+Cards of player1 : [[queen,diamond],[7,diamond],[9,spade],[queen,heart],[2,spade]]
+Cards of player2 : [[7,heart],[6,diamond],[2,diamond],[7,spade],[4,club]]
+
+Sorted Cards of player1 : [[2,spade],[7,diamond],[9,spade],[queen,heart],[queen,diamond]]
+Sorted Cards of player2 : [[2,diamond],[4,club],[6,diamond],[7,spade],[7,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[queen,diamond],[7,diamond],[9,spade],[queen,heart],[2,spade]]
+Win Frequence : [0,0,0,0,0,0,0,0,1,0]
+
+
+Loop : 99
+
+Cards of player1 : [[queen,heart],[king,heart],[5,diamond],[7,spade],[5,spade]]
+Cards of player2 : [[8,heart],[3,spade],[queen,diamond],[2,club],[10,diamond]]
+
+Sorted Cards of player1 : [[5,spade],[5,diamond],[7,spade],[queen,heart],[king,heart]]
+Sorted Cards of player2 : [[2,club],[3,spade],[8,heart],[10,diamond],[queen,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[queen,heart],[king,heart],[5,diamond],[7,spade],[5,spade]]
+Win Frequence : [0,0,0,0,0,0,0,0,2,0]
+
+
+Loop : 98
+
+Cards of player1 : [[4,club],[ace,heart],[jack,club],[7,diamond],[9,diamond]]
+Cards of player2 : [[8,diamond],[queen,club],[4,diamond],[king,heart],[8,heart]]
+
+Sorted Cards of player1 : [[4,club],[7,diamond],[9,diamond],[jack,club],[ace,heart]]
+Sorted Cards of player2 : [[4,diamond],[8,heart],[8,diamond],[queen,club],[king,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[8,diamond],[queen,club],[4,diamond],[king,heart],[8,heart]]
+Win Frequence : [0,0,0,0,0,0,0,0,2,0]
+
+
+Loop : 97
+
+Cards of player1 : [[5,diamond],[9,heart],[ace,diamond],[10,spade],[7,club]]
+Cards of player2 : [[2,diamond],[9,spade],[3,club],[8,club],[4,spade]]
+
+Sorted Cards of player1 : [[5,diamond],[7,club],[9,heart],[10,spade],[ace,diamond]]
+Sorted Cards of player2 : [[2,diamond],[3,club],[4,spade],[8,club],[9,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,diamond],[9,heart],[ace,diamond],[10,spade],[7,club]]
+Win Frequence : [0,0,0,0,0,0,0,0,2,1]
+
+
+Loop : 96
+
+Cards of player1 : [[9,club],[ace,club],[ace,spade],[king,club],[2,club]]
+Cards of player2 : [[7,club],[queen,spade],[10,heart],[king,diamond],[jack,spade]]
+
+Sorted Cards of player1 : [[2,club],[9,club],[king,club],[ace,spade],[ace,club]]
+Sorted Cards of player2 : [[7,club],[10,heart],[jack,spade],[queen,spade],[king,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[9,club],[ace,club],[ace,spade],[king,club],[2,club]]
+Win Frequence : [0,0,0,0,0,0,0,0,3,1]
+
+
+Loop : 95
+
+Cards of player1 : [[9,heart],[queen,club],[3,diamond],[5,heart],[4,club]]
+Cards of player2 : [[6,club],[4,spade],[6,diamond],[jack,spade],[4,heart]]
+
+Sorted Cards of player1 : [[3,diamond],[4,club],[5,heart],[9,heart],[queen,club]]
+Sorted Cards of player2 : [[4,heart],[4,spade],[6,diamond],[6,club],[jack,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[6,club],[4,spade],[6,diamond],[jack,spade],[4,heart]]
+Win Frequence : [0,0,0,0,0,0,0,0,3,1]
+
+
+Loop : 94
+
+Cards of player1 : [[3,spade],[9,heart],[jack,diamond],[4,spade],[3,club]]
+Cards of player2 : [[8,diamond],[jack,club],[5,club],[7,spade],[4,heart]]
+
+Sorted Cards of player1 : [[3,club],[3,spade],[4,spade],[9,heart],[jack,diamond]]
+Sorted Cards of player2 : [[4,heart],[5,club],[7,spade],[8,diamond],[jack,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[3,spade],[9,heart],[jack,diamond],[4,spade],[3,club]]
+Win Frequence : [0,0,0,0,0,0,0,0,4,1]
+
+
+Loop : 93
+
+Cards of player1 : [[4,diamond],[king,diamond],[7,heart],[10,heart],[2,diamond]]
+Cards of player2 : [[9,diamond],[9,heart],[9,spade],[ace,club],[7,club]]
+
+Sorted Cards of player1 : [[2,diamond],[4,diamond],[7,heart],[10,heart],[king,diamond]]
+Sorted Cards of player2 : [[7,club],[9,spade],[9,heart],[9,diamond],[ace,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[9,diamond],[9,heart],[9,spade],[ace,club],[7,club]]
+Win Frequence : [0,0,0,0,0,0,0,0,4,1]
+
+
+Loop : 92
+
+Cards of player1 : [[4,club],[3,heart],[5,heart],[4,spade],[ace,heart]]
+Cards of player2 : [[5,club],[8,diamond],[10,heart],[2,diamond],[2,club]]
+
+Sorted Cards of player1 : [[3,heart],[4,spade],[4,club],[5,heart],[ace,heart]]
+Sorted Cards of player2 : [[2,club],[2,diamond],[5,club],[8,diamond],[10,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[4,club],[3,heart],[5,heart],[4,spade],[ace,heart]]
+Win Frequence : [0,0,0,0,0,0,0,0,5,1]
+
+
+Loop : 91
+
+Cards of player1 : [[jack,club],[4,spade],[jack,diamond],[7,heart],[jack,spade]]
+Cards of player2 : [[2,club],[7,club],[ace,club],[2,diamond],[7,spade]]
+
+Sorted Cards of player1 : [[4,spade],[7,heart],[jack,spade],[jack,diamond],[jack,club]]
+Sorted Cards of player2 : [[2,diamond],[2,club],[7,spade],[7,club],[ace,club]]
+
+Determine Hand of H1 : three_of_a_kind
+Determine Hand of H2 : three_of_a_kind
+
+Winner : [[jack,club],[4,spade],[jack,diamond],[7,heart],[jack,spade]]
+Win Frequence : [0,0,0,0,0,0,1,0,5,1]
+
+
+Loop : 90
+
+Cards of player1 : [[6,club],[5,spade],[7,club],[8,spade],[ace,club]]
+Cards of player2 : [[9,diamond],[6,diamond],[10,spade],[4,heart],[4,club]]
+
+Sorted Cards of player1 : [[5,spade],[6,club],[7,club],[8,spade],[ace,club]]
+Sorted Cards of player2 : [[4,club],[4,heart],[6,diamond],[9,diamond],[10,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[9,diamond],[6,diamond],[10,spade],[4,heart],[4,club]]
+Win Frequence : [0,0,0,0,0,0,1,0,5,1]
+
+
+Loop : 89
+
+Cards of player1 : [[7,club],[8,club],[5,diamond],[4,heart],[9,heart]]
+Cards of player2 : [[queen,spade],[2,club],[king,diamond],[4,spade],[jack,heart]]
+
+Sorted Cards of player1 : [[4,heart],[5,diamond],[7,club],[8,club],[9,heart]]
+Sorted Cards of player2 : [[2,club],[4,spade],[jack,heart],[queen,spade],[king,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[queen,spade],[2,club],[king,diamond],[4,spade],[jack,heart]]
+Win Frequence : [0,0,0,0,0,0,1,0,5,1]
+
+
+Loop : 88
+
+Cards of player1 : [[king,club],[king,diamond],[6,club],[5,club],[queen,heart]]
+Cards of player2 : [[9,diamond],[ace,spade],[4,heart],[7,heart],[jack,spade]]
+
+Sorted Cards of player1 : [[5,club],[6,club],[queen,heart],[king,diamond],[king,club]]
+Sorted Cards of player2 : [[4,heart],[7,heart],[9,diamond],[jack,spade],[ace,spade]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[king,club],[king,diamond],[6,club],[5,club],[queen,heart]]
+Win Frequence : [0,0,0,0,0,0,1,0,6,1]
+
+
+Loop : 87
+
+Cards of player1 : [[6,diamond],[8,club],[3,heart],[jack,club],[3,diamond]]
+Cards of player2 : [[2,spade],[10,heart],[5,heart],[2,club],[king,diamond]]
+
+Sorted Cards of player1 : [[3,diamond],[3,heart],[6,diamond],[8,club],[jack,club]]
+Sorted Cards of player2 : [[2,club],[2,spade],[5,heart],[10,heart],[king,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[6,diamond],[8,club],[3,heart],[jack,club],[3,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,0,7,1]
+
+
+Loop : 86
+
+Cards of player1 : [[9,diamond],[10,spade],[10,heart],[3,spade],[7,spade]]
+Cards of player2 : [[6,diamond],[ace,spade],[7,club],[5,club],[9,club]]
+
+Sorted Cards of player1 : [[3,spade],[7,spade],[9,diamond],[10,heart],[10,spade]]
+Sorted Cards of player2 : [[5,club],[6,diamond],[7,club],[9,club],[ace,spade]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[9,diamond],[10,spade],[10,heart],[3,spade],[7,spade]]
+Win Frequence : [0,0,0,0,0,0,1,0,8,1]
+
+
+Loop : 85
+
+Cards of player1 : [[jack,diamond],[2,heart],[ace,club],[8,heart],[8,diamond]]
+Cards of player2 : [[9,diamond],[5,spade],[7,heart],[10,club],[4,heart]]
+
+Sorted Cards of player1 : [[2,heart],[8,diamond],[8,heart],[jack,diamond],[ace,club]]
+Sorted Cards of player2 : [[4,heart],[5,spade],[7,heart],[9,diamond],[10,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[jack,diamond],[2,heart],[ace,club],[8,heart],[8,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,0,9,1]
+
+
+Loop : 84
+
+Cards of player1 : [[6,spade],[9,spade],[ace,club],[7,club],[9,diamond]]
+Cards of player2 : [[3,heart],[4,diamond],[4,spade],[10,heart],[queen,heart]]
+
+Sorted Cards of player1 : [[6,spade],[7,club],[9,diamond],[9,spade],[ace,club]]
+Sorted Cards of player2 : [[3,heart],[4,spade],[4,diamond],[10,heart],[queen,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[6,spade],[9,spade],[ace,club],[7,club],[9,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,0,10,1]
+
+
+Loop : 83
+
+Cards of player1 : [[10,spade],[king,heart],[jack,club],[king,diamond],[jack,spade]]
+Cards of player2 : [[7,diamond],[8,club],[queen,club],[3,club],[ace,heart]]
+
+Sorted Cards of player1 : [[10,spade],[jack,spade],[jack,club],[king,diamond],[king,heart]]
+Sorted Cards of player2 : [[3,club],[7,diamond],[8,club],[queen,club],[ace,heart]]
+
+Determine Hand of H1 : two_pair
+Determine Hand of H2 : two_pair
+
+Winner : [[10,spade],[king,heart],[jack,club],[king,diamond],[jack,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,1]
+
+
+Loop : 82
+
+Cards of player1 : [[7,heart],[3,diamond],[2,club],[7,diamond],[2,heart]]
+Cards of player2 : [[ace,club],[king,heart],[king,club],[ace,heart],[3,club]]
+
+Sorted Cards of player1 : [[2,heart],[2,club],[3,diamond],[7,diamond],[7,heart]]
+Sorted Cards of player2 : [[3,club],[king,club],[king,heart],[ace,heart],[ace,club]]
+
+Determine Hand of H1 : two_pair
+Determine Hand of H2 : two_pair
+
+Winner : [[ace,club],[king,heart],[king,club],[ace,heart],[3,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,1]
+
+
+Loop : 81
+
+Cards of player1 : [[6,heart],[8,spade],[3,diamond],[9,heart],[king,diamond]]
+Cards of player2 : [[4,diamond],[5,club],[4,heart],[3,club],[3,heart]]
+
+Sorted Cards of player1 : [[3,diamond],[6,heart],[8,spade],[9,heart],[king,diamond]]
+Sorted Cards of player2 : [[3,heart],[3,club],[4,heart],[4,diamond],[5,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[4,diamond],[5,club],[4,heart],[3,club],[3,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,1]
+
+
+Loop : 80
+
+Cards of player1 : [[6,club],[7,diamond],[king,heart],[9,diamond],[5,heart]]
+Cards of player2 : [[3,spade],[4,club],[6,spade],[queen,diamond],[jack,heart]]
+
+Sorted Cards of player1 : [[5,heart],[6,club],[7,diamond],[9,diamond],[king,heart]]
+Sorted Cards of player2 : [[3,spade],[4,club],[6,spade],[jack,heart],[queen,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[6,club],[7,diamond],[king,heart],[9,diamond],[5,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,2]
+
+
+Loop : 79
+
+Cards of player1 : [[queen,heart],[4,club],[ace,heart],[jack,club],[8,diamond]]
+Cards of player2 : [[3,heart],[jack,heart],[5,spade],[ace,spade],[10,club]]
+
+Sorted Cards of player1 : [[4,club],[8,diamond],[jack,club],[queen,heart],[ace,heart]]
+Sorted Cards of player2 : [[3,heart],[5,spade],[10,club],[jack,heart],[ace,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[queen,heart],[4,club],[ace,heart],[jack,club],[8,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,3]
+
+
+Loop : 78
+
+Cards of player1 : [[7,spade],[6,club],[9,heart],[10,heart],[queen,spade]]
+Cards of player2 : [[10,spade],[queen,club],[8,club],[jack,diamond],[ace,diamond]]
+
+Sorted Cards of player1 : [[6,club],[7,spade],[9,heart],[10,heart],[queen,spade]]
+Sorted Cards of player2 : [[8,club],[10,spade],[jack,diamond],[queen,club],[ace,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[10,spade],[queen,club],[8,club],[jack,diamond],[ace,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,3]
+
+
+Loop : 77
+
+Cards of player1 : [[ace,heart],[3,club],[8,spade],[4,club],[6,club]]
+Cards of player2 : [[7,spade],[2,spade],[queen,diamond],[5,diamond],[3,heart]]
+
+Sorted Cards of player1 : [[3,club],[4,club],[6,club],[8,spade],[ace,heart]]
+Sorted Cards of player2 : [[2,spade],[3,heart],[5,diamond],[7,spade],[queen,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[ace,heart],[3,club],[8,spade],[4,club],[6,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,10,4]
+
+
+Loop : 76
+
+Cards of player1 : [[king,club],[6,heart],[9,diamond],[queen,diamond],[9,spade]]
+Cards of player2 : [[10,spade],[6,spade],[king,heart],[6,diamond],[3,spade]]
+
+Sorted Cards of player1 : [[6,heart],[9,spade],[9,diamond],[queen,diamond],[king,club]]
+Sorted Cards of player2 : [[3,spade],[6,diamond],[6,spade],[10,spade],[king,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[king,club],[6,heart],[9,diamond],[queen,diamond],[9,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,11,4]
+
+
+Loop : 75
+
+Cards of player1 : [[jack,heart],[4,heart],[king,spade],[8,diamond],[7,heart]]
+Cards of player2 : [[queen,diamond],[4,spade],[5,club],[ace,diamond],[jack,diamond]]
+
+Sorted Cards of player1 : [[4,heart],[7,heart],[8,diamond],[jack,heart],[king,spade]]
+Sorted Cards of player2 : [[4,spade],[5,club],[jack,diamond],[queen,diamond],[ace,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[queen,diamond],[4,spade],[5,club],[ace,diamond],[jack,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,11,4]
+
+
+Loop : 74
+
+Cards of player1 : [[jack,heart],[5,spade],[king,spade],[7,club],[jack,club]]
+Cards of player2 : [[8,spade],[4,heart],[king,heart],[2,club],[7,diamond]]
+
+Sorted Cards of player1 : [[5,spade],[7,club],[jack,club],[jack,heart],[king,spade]]
+Sorted Cards of player2 : [[2,club],[4,heart],[7,diamond],[8,spade],[king,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[jack,heart],[5,spade],[king,spade],[7,club],[jack,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,12,4]
+
+
+Loop : 73
+
+Cards of player1 : [[2,heart],[5,diamond],[7,heart],[8,spade],[10,heart]]
+Cards of player2 : [[9,club],[jack,diamond],[8,heart],[6,spade],[7,diamond]]
+
+Sorted Cards of player1 : [[2,heart],[5,diamond],[7,heart],[8,spade],[10,heart]]
+Sorted Cards of player2 : [[6,spade],[7,diamond],[8,heart],[9,club],[jack,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[9,club],[jack,diamond],[8,heart],[6,spade],[7,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,12,4]
+
+
+Loop : 72
+
+Cards of player1 : [[7,heart],[3,heart],[queen,spade],[ace,club],[6,diamond]]
+Cards of player2 : [[2,club],[king,diamond],[5,club],[4,spade],[jack,spade]]
+
+Sorted Cards of player1 : [[3,heart],[6,diamond],[7,heart],[queen,spade],[ace,club]]
+Sorted Cards of player2 : [[2,club],[4,spade],[5,club],[jack,spade],[king,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[7,heart],[3,heart],[queen,spade],[ace,club],[6,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,12,5]
+
+
+Loop : 71
+
+Cards of player1 : [[8,diamond],[queen,spade],[4,heart],[4,club],[3,club]]
+Cards of player2 : [[5,spade],[9,spade],[2,diamond],[6,club],[5,heart]]
+
+Sorted Cards of player1 : [[3,club],[4,club],[4,heart],[8,diamond],[queen,spade]]
+Sorted Cards of player2 : [[2,diamond],[5,heart],[5,spade],[6,club],[9,spade]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[5,spade],[9,spade],[2,diamond],[6,club],[5,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,12,5]
+
+
+Loop : 70
+
+Cards of player1 : [[ace,club],[2,club],[6,club],[ace,spade],[8,spade]]
+Cards of player2 : [[jack,diamond],[9,diamond],[5,heart],[10,club],[7,diamond]]
+
+Sorted Cards of player1 : [[2,club],[6,club],[8,spade],[ace,spade],[ace,club]]
+Sorted Cards of player2 : [[5,heart],[7,diamond],[9,diamond],[10,club],[jack,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[ace,club],[2,club],[6,club],[ace,spade],[8,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,13,5]
+
+
+Loop : 69
+
+Cards of player1 : [[5,heart],[8,heart],[2,heart],[4,club],[king,diamond]]
+Cards of player2 : [[5,club],[queen,heart],[10,diamond],[6,diamond],[jack,spade]]
+
+Sorted Cards of player1 : [[2,heart],[4,club],[5,heart],[8,heart],[king,diamond]]
+Sorted Cards of player2 : [[5,club],[6,diamond],[10,diamond],[jack,spade],[queen,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,heart],[8,heart],[2,heart],[4,club],[king,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,13,6]
+
+
+Loop : 68
+
+Cards of player1 : [[10,spade],[9,club],[king,spade],[7,club],[queen,heart]]
+Cards of player2 : [[4,diamond],[5,heart],[10,club],[3,spade],[4,club]]
+
+Sorted Cards of player1 : [[7,club],[9,club],[10,spade],[queen,heart],[king,spade]]
+Sorted Cards of player2 : [[3,spade],[4,club],[4,diamond],[5,heart],[10,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[4,diamond],[5,heart],[10,club],[3,spade],[4,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,13,6]
+
+
+Loop : 67
+
+Cards of player1 : [[king,diamond],[queen,diamond],[6,club],[9,spade],[king,spade]]
+Cards of player2 : [[7,club],[4,spade],[10,spade],[queen,club],[9,heart]]
+
+Sorted Cards of player1 : [[6,club],[9,spade],[queen,diamond],[king,spade],[king,diamond]]
+Sorted Cards of player2 : [[4,spade],[7,club],[9,heart],[10,spade],[queen,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[king,diamond],[queen,diamond],[6,club],[9,spade],[king,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,14,6]
+
+
+Loop : 66
+
+Cards of player1 : [[queen,heart],[jack,spade],[10,diamond],[10,club],[ace,diamond]]
+Cards of player2 : [[4,diamond],[ace,spade],[king,spade],[9,club],[10,heart]]
+
+Sorted Cards of player1 : [[10,club],[10,diamond],[jack,spade],[queen,heart],[ace,diamond]]
+Sorted Cards of player2 : [[4,diamond],[9,club],[10,heart],[king,spade],[ace,spade]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[queen,heart],[jack,spade],[10,diamond],[10,club],[ace,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,15,6]
+
+
+Loop : 65
+
+Cards of player1 : [[8,spade],[9,spade],[4,heart],[king,spade],[9,diamond]]
+Cards of player2 : [[9,club],[ace,spade],[2,spade],[10,diamond],[5,diamond]]
+
+Sorted Cards of player1 : [[4,heart],[8,spade],[9,diamond],[9,spade],[king,spade]]
+Sorted Cards of player2 : [[2,spade],[5,diamond],[9,club],[10,diamond],[ace,spade]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[8,spade],[9,spade],[4,heart],[king,spade],[9,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,16,6]
+
+
+Loop : 64
+
+Cards of player1 : [[queen,spade],[3,diamond],[3,spade],[2,diamond],[ace,diamond]]
+Cards of player2 : [[9,heart],[5,club],[4,spade],[6,club],[king,heart]]
+
+Sorted Cards of player1 : [[2,diamond],[3,spade],[3,diamond],[queen,spade],[ace,diamond]]
+Sorted Cards of player2 : [[4,spade],[5,club],[6,club],[9,heart],[king,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[queen,spade],[3,diamond],[3,spade],[2,diamond],[ace,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,17,6]
+
+
+Loop : 63
+
+Cards of player1 : [[6,club],[6,heart],[jack,club],[2,heart],[5,diamond]]
+Cards of player2 : [[queen,diamond],[ace,diamond],[7,diamond],[5,club],[9,heart]]
+
+Sorted Cards of player1 : [[2,heart],[5,diamond],[6,heart],[6,club],[jack,club]]
+Sorted Cards of player2 : [[5,club],[7,diamond],[9,heart],[queen,diamond],[ace,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[6,club],[6,heart],[jack,club],[2,heart],[5,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,18,6]
+
+
+Loop : 62
+
+Cards of player1 : [[10,spade],[2,diamond],[9,spade],[jack,spade],[5,heart]]
+Cards of player2 : [[8,heart],[7,spade],[9,heart],[4,club],[3,diamond]]
+
+Sorted Cards of player1 : [[2,diamond],[5,heart],[9,spade],[10,spade],[jack,spade]]
+Sorted Cards of player2 : [[3,diamond],[4,club],[7,spade],[8,heart],[9,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[10,spade],[2,diamond],[9,spade],[jack,spade],[5,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,18,7]
+
+
+Loop : 61
+
+Cards of player1 : [[queen,heart],[5,heart],[2,diamond],[3,heart],[king,spade]]
+Cards of player2 : [[4,spade],[8,diamond],[ace,club],[8,heart],[5,diamond]]
+
+Sorted Cards of player1 : [[2,diamond],[3,heart],[5,heart],[queen,heart],[king,spade]]
+Sorted Cards of player2 : [[4,spade],[5,diamond],[8,heart],[8,diamond],[ace,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[4,spade],[8,diamond],[ace,club],[8,heart],[5,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,18,7]
+
+
+Loop : 60
+
+Cards of player1 : [[7,diamond],[5,heart],[queen,club],[king,club],[9,diamond]]
+Cards of player2 : [[2,diamond],[4,heart],[10,spade],[ace,diamond],[9,club]]
+
+Sorted Cards of player1 : [[5,heart],[7,diamond],[9,diamond],[queen,club],[king,club]]
+Sorted Cards of player2 : [[2,diamond],[4,heart],[9,club],[10,spade],[ace,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[2,diamond],[4,heart],[10,spade],[ace,diamond],[9,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,18,7]
+
+
+Loop : 59
+
+Cards of player1 : [[ace,heart],[queen,club],[5,club],[8,club],[6,spade]]
+Cards of player2 : [[king,diamond],[9,spade],[queen,heart],[jack,diamond],[3,diamond]]
+
+Sorted Cards of player1 : [[5,club],[6,spade],[8,club],[queen,club],[ace,heart]]
+Sorted Cards of player2 : [[3,diamond],[9,spade],[jack,diamond],[queen,heart],[king,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[ace,heart],[queen,club],[5,club],[8,club],[6,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,18,8]
+
+
+Loop : 58
+
+Cards of player1 : [[7,heart],[3,club],[ace,spade],[ace,club],[9,spade]]
+Cards of player2 : [[jack,diamond],[3,heart],[jack,heart],[8,spade],[7,spade]]
+
+Sorted Cards of player1 : [[3,club],[7,heart],[9,spade],[ace,club],[ace,spade]]
+Sorted Cards of player2 : [[3,heart],[7,spade],[8,spade],[jack,heart],[jack,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[7,heart],[3,club],[ace,spade],[ace,club],[9,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,19,8]
+
+
+Loop : 57
+
+Cards of player1 : [[4,heart],[9,spade],[9,heart],[3,diamond],[jack,club]]
+Cards of player2 : [[4,spade],[10,diamond],[jack,diamond],[6,diamond],[jack,heart]]
+
+Sorted Cards of player1 : [[3,diamond],[4,heart],[9,heart],[9,spade],[jack,club]]
+Sorted Cards of player2 : [[4,spade],[6,diamond],[10,diamond],[jack,heart],[jack,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[4,spade],[10,diamond],[jack,diamond],[6,diamond],[jack,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,19,8]
+
+
+Loop : 56
+
+Cards of player1 : [[ace,spade],[5,diamond],[3,club],[jack,club],[9,club]]
+Cards of player2 : [[queen,club],[9,diamond],[queen,heart],[2,spade],[7,heart]]
+
+Sorted Cards of player1 : [[3,club],[5,diamond],[9,club],[jack,club],[ace,spade]]
+Sorted Cards of player2 : [[2,spade],[7,heart],[9,diamond],[queen,heart],[queen,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[queen,club],[9,diamond],[queen,heart],[2,spade],[7,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,19,8]
+
+
+Loop : 55
+
+Cards of player1 : [[6,club],[6,heart],[4,spade],[jack,spade],[ace,club]]
+Cards of player2 : [[9,club],[queen,club],[2,club],[4,diamond],[jack,club]]
+
+Sorted Cards of player1 : [[4,spade],[6,heart],[6,club],[jack,spade],[ace,club]]
+Sorted Cards of player2 : [[2,club],[4,diamond],[9,club],[jack,club],[queen,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[6,club],[6,heart],[4,spade],[jack,spade],[ace,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,20,8]
+
+
+Loop : 54
+
+Cards of player1 : [[9,heart],[2,diamond],[10,spade],[6,club],[8,heart]]
+Cards of player2 : [[3,club],[10,club],[jack,spade],[8,spade],[3,diamond]]
+
+Sorted Cards of player1 : [[2,diamond],[6,club],[8,heart],[9,heart],[10,spade]]
+Sorted Cards of player2 : [[3,diamond],[3,club],[8,spade],[10,club],[jack,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[3,club],[10,club],[jack,spade],[8,spade],[3,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,20,8]
+
+
+Loop : 53
+
+Cards of player1 : [[4,heart],[8,spade],[7,diamond],[6,heart],[2,heart]]
+Cards of player2 : [[5,spade],[jack,heart],[4,spade],[2,spade],[4,diamond]]
+
+Sorted Cards of player1 : [[2,heart],[4,heart],[6,heart],[7,diamond],[8,spade]]
+Sorted Cards of player2 : [[2,spade],[4,diamond],[4,spade],[5,spade],[jack,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,spade],[jack,heart],[4,spade],[2,spade],[4,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,20,8]
+
+
+Loop : 52
+
+Cards of player1 : [[6,heart],[10,club],[3,heart],[5,club],[6,diamond]]
+Cards of player2 : [[4,spade],[8,spade],[7,heart],[6,spade],[ace,diamond]]
+
+Sorted Cards of player1 : [[3,heart],[5,club],[6,diamond],[6,heart],[10,club]]
+Sorted Cards of player2 : [[4,spade],[6,spade],[7,heart],[8,spade],[ace,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[6,heart],[10,club],[3,heart],[5,club],[6,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,21,8]
+
+
+Loop : 51
+
+Cards of player1 : [[8,diamond],[6,diamond],[8,club],[9,heart],[ace,heart]]
+Cards of player2 : [[jack,diamond],[9,club],[4,heart],[2,heart],[queen,heart]]
+
+Sorted Cards of player1 : [[6,diamond],[8,club],[8,diamond],[9,heart],[ace,heart]]
+Sorted Cards of player2 : [[2,heart],[4,heart],[9,club],[jack,diamond],[queen,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[8,diamond],[6,diamond],[8,club],[9,heart],[ace,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,22,8]
+
+
+Loop : 50
+
+Cards of player1 : [[9,diamond],[9,club],[jack,club],[7,heart],[3,spade]]
+Cards of player2 : [[7,diamond],[8,heart],[3,heart],[queen,diamond],[queen,spade]]
+
+Sorted Cards of player1 : [[3,spade],[7,heart],[9,club],[9,diamond],[jack,club]]
+Sorted Cards of player2 : [[3,heart],[7,diamond],[8,heart],[queen,spade],[queen,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[7,diamond],[8,heart],[3,heart],[queen,diamond],[queen,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,22,8]
+
+
+Loop : 49
+
+Cards of player1 : [[10,spade],[ace,diamond],[4,diamond],[10,club],[9,spade]]
+Cards of player2 : [[2,spade],[king,diamond],[7,spade],[2,heart],[jack,club]]
+
+Sorted Cards of player1 : [[4,diamond],[9,spade],[10,club],[10,spade],[ace,diamond]]
+Sorted Cards of player2 : [[2,heart],[2,spade],[7,spade],[jack,club],[king,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[10,spade],[ace,diamond],[4,diamond],[10,club],[9,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,23,8]
+
+
+Loop : 48
+
+Cards of player1 : [[10,heart],[king,spade],[3,heart],[7,heart],[4,diamond]]
+Cards of player2 : [[5,spade],[queen,heart],[9,spade],[king,heart],[6,spade]]
+
+Sorted Cards of player1 : [[3,heart],[4,diamond],[7,heart],[10,heart],[king,spade]]
+Sorted Cards of player2 : [[5,spade],[6,spade],[9,spade],[queen,heart],[king,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,spade],[queen,heart],[9,spade],[king,heart],[6,spade]]
+Win Frequence : [0,0,0,0,0,0,1,1,23,8]
+
+
+Loop : 47
+
+Cards of player1 : [[ace,club],[9,club],[5,heart],[ace,heart],[10,club]]
+Cards of player2 : [[queen,heart],[7,club],[7,spade],[ace,diamond],[6,heart]]
+
+Sorted Cards of player1 : [[5,heart],[9,club],[10,club],[ace,heart],[ace,club]]
+Sorted Cards of player2 : [[6,heart],[7,spade],[7,club],[queen,heart],[ace,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[ace,club],[9,club],[5,heart],[ace,heart],[10,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,24,8]
+
+
+Loop : 46
+
+Cards of player1 : [[ace,club],[7,heart],[2,heart],[8,diamond],[3,diamond]]
+Cards of player2 : [[6,diamond],[queen,heart],[4,diamond],[5,spade],[queen,diamond]]
+
+Sorted Cards of player1 : [[2,heart],[3,diamond],[7,heart],[8,diamond],[ace,club]]
+Sorted Cards of player2 : [[4,diamond],[5,spade],[6,diamond],[queen,diamond],[queen,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[6,diamond],[queen,heart],[4,diamond],[5,spade],[queen,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,24,8]
+
+
+Loop : 45
+
+Cards of player1 : [[king,diamond],[5,heart],[9,heart],[6,diamond],[4,club]]
+Cards of player2 : [[king,heart],[10,spade],[ace,club],[8,club],[5,diamond]]
+
+Sorted Cards of player1 : [[4,club],[5,heart],[6,diamond],[9,heart],[king,diamond]]
+Sorted Cards of player2 : [[5,diamond],[8,club],[10,spade],[king,heart],[ace,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[king,heart],[10,spade],[ace,club],[8,club],[5,diamond]]
+Win Frequence : [0,0,0,0,0,0,1,1,24,8]
+
+
+Loop : 44
+
+Cards of player1 : [[10,heart],[queen,club],[6,heart],[king,diamond],[2,heart]]
+Cards of player2 : [[8,heart],[4,club],[8,club],[9,spade],[2,club]]
+
+Sorted Cards of player1 : [[2,heart],[6,heart],[10,heart],[queen,club],[king,diamond]]
+Sorted Cards of player2 : [[2,club],[4,club],[8,club],[8,heart],[9,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[8,heart],[4,club],[8,club],[9,spade],[2,club]]
+Win Frequence : [0,0,0,0,0,0,1,1,24,8]
+
+
+Loop : 43
+
+Cards of player1 : [[3,club],[10,spade],[9,heart],[10,diamond],[7,heart]]
+Cards of player2 : [[4,heart],[9,club],[jack,heart],[9,diamond],[king,club]]
+
+Sorted Cards of player1 : [[3,club],[7,heart],[9,heart],[10,diamond],[10,spade]]
+Sorted Cards of player2 : [[4,heart],[9,diamond],[9,club],[jack,heart],[king,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[3,club],[10,spade],[9,heart],[10,diamond],[7,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,25,8]
+
+
+Loop : 42
+
+Cards of player1 : [[ace,club],[5,diamond],[6,spade],[8,diamond],[3,club]]
+Cards of player2 : [[king,spade],[3,spade],[ace,heart],[king,club],[7,heart]]
+
+Sorted Cards of player1 : [[3,club],[5,diamond],[6,spade],[8,diamond],[ace,club]]
+Sorted Cards of player2 : [[3,spade],[7,heart],[king,club],[king,spade],[ace,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[king,spade],[3,spade],[ace,heart],[king,club],[7,heart]]
+Win Frequence : [0,0,0,0,0,0,1,1,25,8]
+
+
+Loop : 41
+
+Cards of player1 : [[ace,spade],[4,spade],[3,spade],[5,spade],[queen,spade]]
+Cards of player2 : [[10,spade],[5,heart],[ace,diamond],[queen,club],[5,club]]
+
+Sorted Cards of player1 : [[3,spade],[4,spade],[5,spade],[queen,spade],[ace,spade]]
+Sorted Cards of player2 : [[5,club],[5,heart],[10,spade],[queen,club],[ace,diamond]]
+
+Determine Hand of H1 : flush
+Determine Hand of H2 : flush
+
+Winner : [[ace,spade],[4,spade],[3,spade],[5,spade],[queen,spade]]
+Win Frequence : [0,0,0,0,1,0,1,1,25,8]
+
+
+Loop : 40
+
+Cards of player1 : [[jack,diamond],[7,spade],[4,heart],[3,heart],[5,club]]
+Cards of player2 : [[8,spade],[5,heart],[ace,heart],[jack,club],[8,diamond]]
+
+Sorted Cards of player1 : [[3,heart],[4,heart],[5,club],[7,spade],[jack,diamond]]
+Sorted Cards of player2 : [[5,heart],[8,diamond],[8,spade],[jack,club],[ace,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[8,spade],[5,heart],[ace,heart],[jack,club],[8,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,1,25,8]
+
+
+Loop : 39
+
+Cards of player1 : [[5,club],[2,club],[4,heart],[jack,diamond],[4,club]]
+Cards of player2 : [[7,heart],[queen,club],[jack,heart],[7,diamond],[3,diamond]]
+
+Sorted Cards of player1 : [[2,club],[4,club],[4,heart],[5,club],[jack,diamond]]
+Sorted Cards of player2 : [[3,diamond],[7,diamond],[7,heart],[jack,heart],[queen,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[7,heart],[queen,club],[jack,heart],[7,diamond],[3,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,1,25,8]
+
+
+Loop : 38
+
+Cards of player1 : [[queen,spade],[8,club],[6,club],[10,spade],[2,club]]
+Cards of player2 : [[ace,heart],[king,spade],[4,diamond],[9,club],[8,diamond]]
+
+Sorted Cards of player1 : [[2,club],[6,club],[8,club],[10,spade],[queen,spade]]
+Sorted Cards of player2 : [[4,diamond],[8,diamond],[9,club],[king,spade],[ace,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[ace,heart],[king,spade],[4,diamond],[9,club],[8,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,1,25,8]
+
+
+Loop : 37
+
+Cards of player1 : [[7,club],[2,spade],[7,diamond],[6,diamond],[8,diamond]]
+Cards of player2 : [[5,heart],[2,club],[9,diamond],[king,diamond],[5,spade]]
+
+Sorted Cards of player1 : [[2,spade],[6,diamond],[7,diamond],[7,club],[8,diamond]]
+Sorted Cards of player2 : [[2,club],[5,spade],[5,heart],[9,diamond],[king,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[7,club],[2,spade],[7,diamond],[6,diamond],[8,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,1,26,8]
+
+
+Loop : 36
+
+Cards of player1 : [[4,heart],[king,heart],[2,heart],[3,diamond],[ace,diamond]]
+Cards of player2 : [[2,diamond],[king,diamond],[5,spade],[8,club],[5,club]]
+
+Sorted Cards of player1 : [[2,heart],[3,diamond],[4,heart],[king,heart],[ace,diamond]]
+Sorted Cards of player2 : [[2,diamond],[5,club],[5,spade],[8,club],[king,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[2,diamond],[king,diamond],[5,spade],[8,club],[5,club]]
+Win Frequence : [0,0,0,0,1,0,1,1,26,8]
+
+
+Loop : 35
+
+Cards of player1 : [[7,spade],[king,heart],[queen,spade],[ace,spade],[king,spade]]
+Cards of player2 : [[7,club],[2,club],[8,club],[jack,diamond],[9,diamond]]
+
+Sorted Cards of player1 : [[7,spade],[queen,spade],[king,spade],[king,heart],[ace,spade]]
+Sorted Cards of player2 : [[2,club],[7,club],[8,club],[9,diamond],[jack,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[7,spade],[king,heart],[queen,spade],[ace,spade],[king,spade]]
+Win Frequence : [0,0,0,0,1,0,1,1,27,8]
+
+
+Loop : 34
+
+Cards of player1 : [[9,club],[9,diamond],[4,club],[7,spade],[4,heart]]
+Cards of player2 : [[6,heart],[ace,spade],[8,diamond],[10,diamond],[3,club]]
+
+Sorted Cards of player1 : [[4,heart],[4,club],[7,spade],[9,diamond],[9,club]]
+Sorted Cards of player2 : [[3,club],[6,heart],[8,diamond],[10,diamond],[ace,spade]]
+
+Determine Hand of H1 : two_pair
+Determine Hand of H2 : two_pair
+
+Winner : [[9,club],[9,diamond],[4,club],[7,spade],[4,heart]]
+Win Frequence : [0,0,0,0,1,0,1,2,27,8]
+
+
+Loop : 33
+
+Cards of player1 : [[queen,diamond],[3,heart],[10,spade],[10,club],[5,diamond]]
+Cards of player2 : [[3,spade],[4,spade],[ace,heart],[4,diamond],[3,diamond]]
+
+Sorted Cards of player1 : [[3,heart],[5,diamond],[10,club],[10,spade],[queen,diamond]]
+Sorted Cards of player2 : [[3,diamond],[3,spade],[4,diamond],[4,spade],[ace,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[3,spade],[4,spade],[ace,heart],[4,diamond],[3,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,2,27,8]
+
+
+Loop : 32
+
+Cards of player1 : [[king,diamond],[3,heart],[9,spade],[9,heart],[4,spade]]
+Cards of player2 : [[queen,diamond],[10,club],[3,spade],[king,heart],[6,spade]]
+
+Sorted Cards of player1 : [[3,heart],[4,spade],[9,heart],[9,spade],[king,diamond]]
+Sorted Cards of player2 : [[3,spade],[6,spade],[10,club],[queen,diamond],[king,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[king,diamond],[3,heart],[9,spade],[9,heart],[4,spade]]
+Win Frequence : [0,0,0,0,1,0,1,2,28,8]
+
+
+Loop : 31
+
+Cards of player1 : [[king,diamond],[jack,spade],[king,heart],[6,heart],[jack,club]]
+Cards of player2 : [[ace,club],[9,diamond],[ace,heart],[5,club],[jack,heart]]
+
+Sorted Cards of player1 : [[6,heart],[jack,club],[jack,spade],[king,heart],[king,diamond]]
+Sorted Cards of player2 : [[5,club],[9,diamond],[jack,heart],[ace,heart],[ace,club]]
+
+Determine Hand of H1 : two_pair
+Determine Hand of H2 : two_pair
+
+Winner : [[king,diamond],[jack,spade],[king,heart],[6,heart],[jack,club]]
+Win Frequence : [0,0,0,0,1,0,1,3,28,8]
+
+
+Loop : 30
+
+Cards of player1 : [[2,heart],[ace,club],[9,club],[2,club],[queen,diamond]]
+Cards of player2 : [[8,club],[3,diamond],[2,diamond],[ace,diamond],[6,diamond]]
+
+Sorted Cards of player1 : [[2,club],[2,heart],[9,club],[queen,diamond],[ace,club]]
+Sorted Cards of player2 : [[2,diamond],[3,diamond],[6,diamond],[8,club],[ace,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[2,heart],[ace,club],[9,club],[2,club],[queen,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,3,29,8]
+
+
+Loop : 29
+
+Cards of player1 : [[queen,club],[king,heart],[5,heart],[9,club],[jack,club]]
+Cards of player2 : [[ace,club],[9,diamond],[5,club],[6,club],[9,heart]]
+
+Sorted Cards of player1 : [[5,heart],[9,club],[jack,club],[queen,club],[king,heart]]
+Sorted Cards of player2 : [[5,club],[6,club],[9,heart],[9,diamond],[ace,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[ace,club],[9,diamond],[5,club],[6,club],[9,heart]]
+Win Frequence : [0,0,0,0,1,0,1,3,29,8]
+
+
+Loop : 28
+
+Cards of player1 : [[3,spade],[queen,club],[3,diamond],[queen,heart],[2,spade]]
+Cards of player2 : [[6,heart],[ace,spade],[2,diamond],[ace,club],[10,diamond]]
+
+Sorted Cards of player1 : [[2,spade],[3,diamond],[3,spade],[queen,heart],[queen,club]]
+Sorted Cards of player2 : [[2,diamond],[6,heart],[10,diamond],[ace,club],[ace,spade]]
+
+Determine Hand of H1 : two_pair
+Determine Hand of H2 : two_pair
+
+Winner : [[3,spade],[queen,club],[3,diamond],[queen,heart],[2,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,29,8]
+
+
+Loop : 27
+
+Cards of player1 : [[5,club],[3,spade],[2,club],[5,heart],[9,club]]
+Cards of player2 : [[4,heart],[9,spade],[king,spade],[queen,club],[6,diamond]]
+
+Sorted Cards of player1 : [[2,club],[3,spade],[5,heart],[5,club],[9,club]]
+Sorted Cards of player2 : [[4,heart],[6,diamond],[9,spade],[queen,club],[king,spade]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[5,club],[3,spade],[2,club],[5,heart],[9,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,30,8]
+
+
+Loop : 26
+
+Cards of player1 : [[5,spade],[queen,heart],[ace,heart],[9,diamond],[7,club]]
+Cards of player2 : [[ace,diamond],[3,diamond],[9,spade],[queen,diamond],[6,club]]
+
+Sorted Cards of player1 : [[5,spade],[7,club],[9,diamond],[queen,heart],[ace,heart]]
+Sorted Cards of player2 : [[3,diamond],[6,club],[9,spade],[queen,diamond],[ace,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,spade],[queen,heart],[ace,heart],[9,diamond],[7,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,30,9]
+
+
+Loop : 25
+
+Cards of player1 : [[queen,spade],[10,heart],[queen,heart],[8,heart],[9,club]]
+Cards of player2 : [[3,club],[5,spade],[4,spade],[jack,heart],[2,diamond]]
+
+Sorted Cards of player1 : [[8,heart],[9,club],[10,heart],[queen,heart],[queen,spade]]
+Sorted Cards of player2 : [[2,diamond],[3,club],[4,spade],[5,spade],[jack,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[queen,spade],[10,heart],[queen,heart],[8,heart],[9,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,31,9]
+
+
+Loop : 24
+
+Cards of player1 : [[5,heart],[8,diamond],[9,spade],[ace,heart],[10,diamond]]
+Cards of player2 : [[8,heart],[7,heart],[5,spade],[2,diamond],[queen,diamond]]
+
+Sorted Cards of player1 : [[5,heart],[8,diamond],[9,spade],[10,diamond],[ace,heart]]
+Sorted Cards of player2 : [[2,diamond],[5,spade],[7,heart],[8,heart],[queen,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,heart],[8,diamond],[9,spade],[ace,heart],[10,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,4,31,10]
+
+
+Loop : 23
+
+Cards of player1 : [[ace,heart],[6,diamond],[9,club],[10,spade],[6,spade]]
+Cards of player2 : [[6,heart],[5,spade],[jack,diamond],[9,spade],[queen,club]]
+
+Sorted Cards of player1 : [[6,spade],[6,diamond],[9,club],[10,spade],[ace,heart]]
+Sorted Cards of player2 : [[5,spade],[6,heart],[9,spade],[jack,diamond],[queen,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[ace,heart],[6,diamond],[9,club],[10,spade],[6,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,32,10]
+
+
+Loop : 22
+
+Cards of player1 : [[king,spade],[jack,spade],[4,spade],[queen,diamond],[5,heart]]
+Cards of player2 : [[5,club],[7,heart],[10,diamond],[4,heart],[3,club]]
+
+Sorted Cards of player1 : [[4,spade],[5,heart],[jack,spade],[queen,diamond],[king,spade]]
+Sorted Cards of player2 : [[3,club],[4,heart],[5,club],[7,heart],[10,diamond]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[king,spade],[jack,spade],[4,spade],[queen,diamond],[5,heart]]
+Win Frequence : [0,0,0,0,1,0,1,4,32,11]
+
+
+Loop : 21
+
+Cards of player1 : [[4,spade],[4,diamond],[3,club],[8,diamond],[6,spade]]
+Cards of player2 : [[ace,diamond],[3,spade],[8,spade],[10,diamond],[8,club]]
+
+Sorted Cards of player1 : [[3,club],[4,diamond],[4,spade],[6,spade],[8,diamond]]
+Sorted Cards of player2 : [[3,spade],[8,club],[8,spade],[10,diamond],[ace,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[ace,diamond],[3,spade],[8,spade],[10,diamond],[8,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,32,11]
+
+
+Loop : 20
+
+Cards of player1 : [[8,heart],[queen,spade],[jack,spade],[8,club],[3,spade]]
+Cards of player2 : [[7,heart],[4,club],[2,spade],[jack,heart],[ace,diamond]]
+
+Sorted Cards of player1 : [[3,spade],[8,club],[8,heart],[jack,spade],[queen,spade]]
+Sorted Cards of player2 : [[2,spade],[4,club],[7,heart],[jack,heart],[ace,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[8,heart],[queen,spade],[jack,spade],[8,club],[3,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,33,11]
+
+
+Loop : 19
+
+Cards of player1 : [[6,diamond],[queen,spade],[2,diamond],[8,spade],[7,diamond]]
+Cards of player2 : [[7,club],[king,club],[king,spade],[5,spade],[9,heart]]
+
+Sorted Cards of player1 : [[2,diamond],[6,diamond],[7,diamond],[8,spade],[queen,spade]]
+Sorted Cards of player2 : [[5,spade],[7,club],[9,heart],[king,spade],[king,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[7,club],[king,club],[king,spade],[5,spade],[9,heart]]
+Win Frequence : [0,0,0,0,1,0,1,4,33,11]
+
+
+Loop : 18
+
+Cards of player1 : [[7,spade],[4,diamond],[king,diamond],[king,club],[8,heart]]
+Cards of player2 : [[5,heart],[10,diamond],[7,heart],[10,spade],[3,diamond]]
+
+Sorted Cards of player1 : [[4,diamond],[7,spade],[8,heart],[king,club],[king,diamond]]
+Sorted Cards of player2 : [[3,diamond],[5,heart],[7,heart],[10,spade],[10,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[7,spade],[4,diamond],[king,diamond],[king,club],[8,heart]]
+Win Frequence : [0,0,0,0,1,0,1,4,34,11]
+
+
+Loop : 17
+
+Cards of player1 : [[2,heart],[3,diamond],[8,heart],[9,spade],[4,spade]]
+Cards of player2 : [[king,club],[10,club],[5,diamond],[queen,club],[4,heart]]
+
+Sorted Cards of player1 : [[2,heart],[3,diamond],[4,spade],[8,heart],[9,spade]]
+Sorted Cards of player2 : [[4,heart],[5,diamond],[10,club],[queen,club],[king,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[king,club],[10,club],[5,diamond],[queen,club],[4,heart]]
+Win Frequence : [0,0,0,0,1,0,1,4,34,11]
+
+
+Loop : 16
+
+Cards of player1 : [[6,club],[9,club],[6,spade],[king,diamond],[4,heart]]
+Cards of player2 : [[6,diamond],[2,heart],[10,heart],[queen,diamond],[7,heart]]
+
+Sorted Cards of player1 : [[4,heart],[6,spade],[6,club],[9,club],[king,diamond]]
+Sorted Cards of player2 : [[2,heart],[6,diamond],[7,heart],[10,heart],[queen,diamond]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[6,club],[9,club],[6,spade],[king,diamond],[4,heart]]
+Win Frequence : [0,0,0,0,1,0,1,4,35,11]
+
+
+Loop : 15
+
+Cards of player1 : [[10,spade],[king,heart],[4,heart],[3,club],[2,spade]]
+Cards of player2 : [[10,club],[7,club],[jack,heart],[4,club],[8,spade]]
+
+Sorted Cards of player1 : [[2,spade],[3,club],[4,heart],[10,spade],[king,heart]]
+Sorted Cards of player2 : [[4,club],[7,club],[8,spade],[10,club],[jack,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[10,spade],[king,heart],[4,heart],[3,club],[2,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,35,12]
+
+
+Loop : 14
+
+Cards of player1 : [[queen,spade],[8,spade],[jack,heart],[5,spade],[king,spade]]
+Cards of player2 : [[9,spade],[6,spade],[2,club],[jack,spade],[4,heart]]
+
+Sorted Cards of player1 : [[5,spade],[8,spade],[jack,heart],[queen,spade],[king,spade]]
+Sorted Cards of player2 : [[2,club],[4,heart],[6,spade],[9,spade],[jack,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[queen,spade],[8,spade],[jack,heart],[5,spade],[king,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,35,13]
+
+
+Loop : 13
+
+Cards of player1 : [[king,diamond],[8,heart],[7,spade],[4,spade],[ace,heart]]
+Cards of player2 : [[10,spade],[5,spade],[king,club],[ace,spade],[3,club]]
+
+Sorted Cards of player1 : [[4,spade],[7,spade],[8,heart],[king,diamond],[ace,heart]]
+Sorted Cards of player2 : [[3,club],[5,spade],[10,spade],[king,club],[ace,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[10,spade],[5,spade],[king,club],[ace,spade],[3,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,35,13]
+
+
+Loop : 12
+
+Cards of player1 : [[7,spade],[king,spade],[queen,heart],[8,spade],[6,club]]
+Cards of player2 : [[6,spade],[5,club],[queen,club],[3,club],[ace,spade]]
+
+Sorted Cards of player1 : [[6,club],[7,spade],[8,spade],[queen,heart],[king,spade]]
+Sorted Cards of player2 : [[3,club],[5,club],[6,spade],[queen,club],[ace,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[6,spade],[5,club],[queen,club],[3,club],[ace,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,35,13]
+
+
+Loop : 11
+
+Cards of player1 : [[king,diamond],[jack,diamond],[jack,heart],[7,heart],[4,diamond]]
+Cards of player2 : [[8,diamond],[7,club],[10,club],[5,spade],[ace,club]]
+
+Sorted Cards of player1 : [[4,diamond],[7,heart],[jack,heart],[jack,diamond],[king,diamond]]
+Sorted Cards of player2 : [[5,spade],[7,club],[8,diamond],[10,club],[ace,club]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[king,diamond],[jack,diamond],[jack,heart],[7,heart],[4,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,4,36,13]
+
+
+Loop : 10
+
+Cards of player1 : [[king,heart],[7,spade],[ace,diamond],[2,diamond],[5,spade]]
+Cards of player2 : [[3,spade],[9,spade],[8,diamond],[3,diamond],[king,spade]]
+
+Sorted Cards of player1 : [[2,diamond],[5,spade],[7,spade],[king,heart],[ace,diamond]]
+Sorted Cards of player2 : [[3,diamond],[3,spade],[8,diamond],[9,spade],[king,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[3,spade],[9,spade],[8,diamond],[3,diamond],[king,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,36,13]
+
+
+Loop : 9
+
+Cards of player1 : [[9,club],[10,heart],[queen,club],[jack,club],[4,spade]]
+Cards of player2 : [[5,heart],[5,spade],[queen,heart],[5,club],[5,diamond]]
+
+Sorted Cards of player1 : [[4,spade],[9,club],[10,heart],[jack,club],[queen,club]]
+Sorted Cards of player2 : [[5,diamond],[5,club],[5,spade],[5,heart],[queen,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[5,heart],[5,spade],[queen,heart],[5,club],[5,diamond]]
+Win Frequence : [0,0,0,0,1,0,1,4,36,13]
+
+
+Loop : 8
+
+Cards of player1 : [[5,spade],[7,club],[8,heart],[7,diamond],[ace,spade]]
+Cards of player2 : [[3,club],[ace,heart],[king,spade],[6,heart],[4,spade]]
+
+Sorted Cards of player1 : [[5,spade],[7,diamond],[7,club],[8,heart],[ace,spade]]
+Sorted Cards of player2 : [[3,club],[4,spade],[6,heart],[king,spade],[ace,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[5,spade],[7,club],[8,heart],[7,diamond],[ace,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,37,13]
+
+
+Loop : 7
+
+Cards of player1 : [[ace,club],[8,diamond],[2,diamond],[10,diamond],[9,diamond]]
+Cards of player2 : [[3,heart],[queen,club],[5,club],[3,spade],[2,club]]
+
+Sorted Cards of player1 : [[2,diamond],[8,diamond],[9,diamond],[10,diamond],[ace,club]]
+Sorted Cards of player2 : [[2,club],[3,spade],[3,heart],[5,club],[queen,club]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[3,heart],[queen,club],[5,club],[3,spade],[2,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,37,13]
+
+
+Loop : 6
+
+Cards of player1 : [[2,heart],[queen,spade],[5,spade],[9,diamond],[ace,club]]
+Cards of player2 : [[jack,diamond],[king,diamond],[10,diamond],[ace,spade],[8,spade]]
+
+Sorted Cards of player1 : [[2,heart],[5,spade],[9,diamond],[queen,spade],[ace,club]]
+Sorted Cards of player2 : [[8,spade],[10,diamond],[jack,diamond],[king,diamond],[ace,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[jack,diamond],[king,diamond],[10,diamond],[ace,spade],[8,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,37,13]
+
+
+Loop : 5
+
+Cards of player1 : [[queen,diamond],[9,heart],[queen,spade],[5,spade],[king,heart]]
+Cards of player2 : [[5,heart],[ace,heart],[4,heart],[7,spade],[4,club]]
+
+Sorted Cards of player1 : [[5,spade],[9,heart],[queen,spade],[queen,diamond],[king,heart]]
+Sorted Cards of player2 : [[4,club],[4,heart],[5,heart],[7,spade],[ace,heart]]
+
+Determine Hand of H1 : pair
+Determine Hand of H2 : pair
+
+Winner : [[queen,diamond],[9,heart],[queen,spade],[5,spade],[king,heart]]
+Win Frequence : [0,0,0,0,1,0,1,4,38,13]
+
+
+Loop : 4
+
+Cards of player1 : [[7,spade],[2,spade],[king,diamond],[5,club],[9,spade]]
+Cards of player2 : [[10,heart],[6,club],[9,diamond],[jack,spade],[7,diamond]]
+
+Sorted Cards of player1 : [[2,spade],[5,club],[7,spade],[9,spade],[king,diamond]]
+Sorted Cards of player2 : [[6,club],[7,diamond],[9,diamond],[10,heart],[jack,spade]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[7,spade],[2,spade],[king,diamond],[5,club],[9,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,38,14]
+
+
+Loop : 3
+
+Cards of player1 : [[7,club],[10,club],[2,spade],[queen,diamond],[jack,spade]]
+Cards of player2 : [[king,heart],[3,club],[9,heart],[4,spade],[queen,spade]]
+
+Sorted Cards of player1 : [[2,spade],[7,club],[10,club],[jack,spade],[queen,diamond]]
+Sorted Cards of player2 : [[3,club],[4,spade],[9,heart],[queen,spade],[king,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[king,heart],[3,club],[9,heart],[4,spade],[queen,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,38,14]
+
+
+Loop : 2
+
+Cards of player1 : [[5,spade],[2,diamond],[7,spade],[king,club],[jack,club]]
+Cards of player2 : [[ace,heart],[3,diamond],[ace,club],[ace,spade],[jack,spade]]
+
+Sorted Cards of player1 : [[2,diamond],[5,spade],[7,spade],[jack,club],[king,club]]
+Sorted Cards of player2 : [[3,diamond],[jack,spade],[ace,spade],[ace,club],[ace,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[ace,heart],[3,diamond],[ace,club],[ace,spade],[jack,spade]]
+Win Frequence : [0,0,0,0,1,0,1,4,38,14]
+
+
+Loop : 1
+
+Cards of player1 : [[7,heart],[queen,spade],[jack,diamond],[8,heart],[2,club]]
+Cards of player2 : [[jack,heart],[9,heart],[5,heart],[10,diamond],[9,club]]
+
+Sorted Cards of player1 : [[2,club],[7,heart],[8,heart],[jack,diamond],[queen,spade]]
+Sorted Cards of player2 : [[5,heart],[9,club],[9,heart],[10,diamond],[jack,heart]]
+
+Determine Hand of H1 : high_card
+Determine Hand of H2 : high_card
+
+Winner : [[jack,heart],[9,heart],[5,heart],[10,diamond],[9,club]]
+Win Frequence : [0,0,0,0,1,0,1,4,38,14]
+
+
+Player1 win Frequency : [0,0,0,0,1,0,1,4,38,14]
+
+Player1 vs Player2 : [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,2,2,0,0,0,0,0,0,0,1,17,26,0,0,1,0,0,0,2,2,17,27]
+
+Probability : [0,0,0,0,1.7241379310344827,0,1.7241379310344827,6.896551724137931,65.51724137931035,24.137931034482758]
