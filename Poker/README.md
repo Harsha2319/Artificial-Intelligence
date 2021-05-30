@@ -1,1 +1,1 @@
-# Software-Project
+# Poker Game - Prolog
